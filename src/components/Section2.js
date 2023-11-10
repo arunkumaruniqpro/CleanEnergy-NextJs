@@ -2,18 +2,8 @@ import { FaUsers } from "react-icons/fa";
 import { HiCheck } from "react-icons/hi";
 import { CgAwards } from "react-icons/cg";
 import { FaPeopleCarry } from "react-icons/fa";
-import { useState, useEffect } from "react";
-import axios from "axios";
 
 export default function Section2() {
-  const [milestoneData, setMilestoneData] = useState(null);
-  useEffect(() => {
-    axios.get("http://localhost:1337/api/milestone").then((response) => {
-      console.log(response.data.data);
-      setMilestoneData(response.data.data);
-    });
-  }, []);
-
   return (
     <div className="w-[88%] mx-auto bg-white text-black p-4 py-16">
       <div className="mx-auto">
@@ -23,9 +13,7 @@ export default function Section2() {
               <div className="bg-green-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
                 <FaUsers />
               </div>
-              <h1 className="text left ml-2 text-4xl font-bold">
-                {milestoneData?.attributes.happyCustomers}
-              </h1>
+              <h1 className="text left ml-2 text-4xl font-bold">50</h1>
             </div>
             <h2 id="customers" className="text-left text-lg font-bold mt-5">
               Happy Customers
@@ -39,9 +27,7 @@ export default function Section2() {
               <div className="bg-green-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
                 <HiCheck />
               </div>
-              <h1 className="text left ml-2 text-4xl font-bold">
-                {milestoneData?.attributes.projectDone}
-              </h1>
+              <h1 className="text left ml-2 text-4xl font-bold">77</h1>
             </div>
             <h2 className="text-left text-lg font-bold mt-5">Project Done</h2>
             <p className="text-left mt-4 text-gray-400">
@@ -53,9 +39,7 @@ export default function Section2() {
               <div className="bg-green-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
                 <CgAwards />
               </div>
-              <h1 className="text left ml-2 text-4xl font-bold">
-                {milestoneData?.attributes.awardsWon}
-              </h1>
+              <h1 className="text left ml-2 text-4xl font-bold">5</h1>
             </div>
             <h2 className="text-left text-lg font-bold mt-5 ">Awards Won</h2>
             <p className="text-left mt-4 text-gray-400">
@@ -67,9 +51,7 @@ export default function Section2() {
               <div className="bg-green-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
                 <FaPeopleCarry />
               </div>
-              <h1 className="text left ml-2 text-4xl font-bold">
-                {milestoneData?.attributes.expertWorkers}
-              </h1>
+              <h1 className="text left ml-2 text-4xl font-bold">34</h1>
             </div>
             <h2 className="text-left text-lg font-bold mt-5">Expert Workers</h2>
             <p className="text-left mt-4 text-gray-400">
