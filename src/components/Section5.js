@@ -11,7 +11,7 @@ export default function Section5() {
           <div className="sm:block lg:flex">
             <div className="w-full lg:w-1/2 text-black p-12 py-20 pr-12 lg:pl-28">
               <div>
-                <h1 className="text-lg text-green-600 font-bold">
+                <h1 className="text-lg text-blue-600 font-bold">
                   Why Chose Us!
                 </h1>
               </div>
@@ -26,7 +26,7 @@ export default function Section5() {
               <div className="md:flex justify-between pr-36 ">
                 <div>
                   <div className="flex items-center mt-6 ">
-                    <div className="bg-green-600 mr-4 w-12 h-12 flex justify-center items-center rounded-full text-white text-lg">
+                    <div className="bg-blue-600 mr-4 w-12 h-12 flex justify-center items-center rounded-full text-white text-lg">
                       <HiCheck />
                     </div>
                     <div>
@@ -37,7 +37,7 @@ export default function Section5() {
                     </div>
                   </div>
                   <div className="flex items-center mt-6 ">
-                    <div className="bg-green-600 mr-4 w-12 h-12 flex justify-center items-center rounded-full text-white text-lg">
+                    <div className="bg-blue-600 mr-4 w-12 h-12 flex justify-center items-center rounded-full text-white text-lg">
                       <FaDraftingCompass />
                     </div>
                     <div>
@@ -50,7 +50,7 @@ export default function Section5() {
                 </div>
                 <div>
                   <div className="flex items-center mt-6 ">
-                    <div className="bg-green-600 mr-4 w-12 h-12 flex justify-center items-center rounded-full text-white text-xl">
+                    <div className="bg-blue-600 mr-4 w-12 h-12 flex justify-center items-center rounded-full text-white text-xl">
                       <MdPeople />
                     </div>
                     <div>
@@ -61,7 +61,7 @@ export default function Section5() {
                     </div>
                   </div>
                   <div className="flex items-center mt-6 ">
-                    <div className="bg-green-600 mr-4 w-12 h-12 flex justify-center items-center rounded-full text-white text-xl">
+                    <div className="bg-blue-600 mr-4 w-12 h-12 flex justify-center items-center rounded-full text-white text-xl">
                       <BiSupport />
                     </div>
                     <div>

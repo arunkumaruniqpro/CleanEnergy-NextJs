@@ -18,32 +18,32 @@ export default function Navbar() {
               <div className="ml-10 mr-5 text-lg">
                 <Link
                   href="/"
-                  className="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium">
+                  className="text-black hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">
                   HOME
                 </Link>
                 <Link
                   href="/"
-                  className="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium">
+                  className="text-black hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">
                   ABOUT
                 </Link>
                 <Link
                   href="/"
-                  className="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium">
+                  className="text-black hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">
                   SERVICE
                 </Link>
                 <Link
                   href="/"
-                  className="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium">
+                  className="text-black hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">
                   PROJECT
                 </Link>
                 <Link
                   href="/"
-                  className="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium">
+                  className="text-black hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">
                   PAGES
                 </Link>
                 <Link
                   href="/"
-                  className="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium">
+                  className="text-black hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">
                   CONTACT
                 </Link>
               </div>
