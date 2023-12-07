@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="mx-auto w-[100%]">
           <div className="flex items-center justify-between h-20">
             <div>
-              <span className="text-[#32C36C] font-bold text-3xl pl-8">
+              <span className="text-[#005b96] font-bold text-3xl pl-8">
                 <Link href="/">Beulah</Link>
               </span>
             </div>
@@ -49,7 +49,7 @@ export default function Navbar() {
               </div>
 
               <div className="text-lg">
-                <button className="btn btn-primary rounded-0 hover:text-black bg-green-500 h-20 px-6 flex justify-center items-center text-white">
+                <button className="btn btn-primary rounded-0 hover:text-black bg-blue-500 h-20 px-6 flex justify-center items-center text-white">
                   <Link href="/" className="mr-3">
                     Get A Quote
                   </Link>
