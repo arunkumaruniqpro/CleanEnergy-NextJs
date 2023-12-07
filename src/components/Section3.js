@@ -8,7 +8,7 @@ export default function Section3() {
           <div className="w-full lg:w-1/2">
             <div className="" style={{ height: "627px" }}>
               <img
-                className="w-full h-full object-cover"
+                className="object-cover"
                 src="/images/solarstill.jpg"
                 alt="img1"
               />
