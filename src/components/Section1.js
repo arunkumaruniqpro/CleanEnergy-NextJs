@@ -2,7 +2,7 @@ export default function Section1() {
   return (
     <section>
       <div className="bg-section1 bg-cover bg-center">
-        <div className=" h-screen text-white py-10 px-5 md:py-20 lg:py-40 md:px-10 lg:px-24">
+        <div className=" h-screen text-black py-10 px-5 md:py-20 lg:py-40 md:px-10 lg:px-24">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-8">
             Pioneers Of Solar And <br></br> Renewable Energy
           </h1>
