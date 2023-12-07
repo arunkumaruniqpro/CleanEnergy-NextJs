@@ -11,7 +11,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20">
             <div>
               <span className="text-[#32C36C] font-bold text-3xl pl-8">
-                <Link href="/">Solartec</Link>
+                <Link href="/">Beulah</Link>
               </span>
             </div>
             <div className="flex items-center">
