@@ -11,7 +11,7 @@ export default function Section1() {
             industry. <br></br> Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s
           </p>
-          <button className="bg-green-600 px-9 py-4 rounded-full my-8">
+          <button className="bg-blue-600 px-9 py-4 rounded-full my-8">
             Read More
           </button>
         </div>

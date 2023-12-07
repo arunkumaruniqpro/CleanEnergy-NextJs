@@ -10,7 +10,7 @@ export default function Section2() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-y-4 md:gap-y-6 lg:gap-y-0">
           <div className="mb-6 sm:mb-4 md:mb-0">
             <div className="flex items-center">
-              <div className="bg-green-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
+              <div className="bg-blue-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
                 <FaUsers />
               </div>
               <h1 className="text left ml-2 text-4xl font-bold">50</h1>
@@ -24,7 +24,7 @@ export default function Section2() {
           </div>
           <div className="mb-6 sm:mb-4 md:mb-0 md:ml-3 lg:ml-0">
             <div className="flex items-center">
-              <div className="bg-green-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
+              <div className="bg-blue-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
                 <HiCheck />
               </div>
               <h1 className="text left ml-2 text-4xl font-bold">77</h1>
@@ -36,7 +36,7 @@ export default function Section2() {
           </div>
           <div className="mb-6 sm:mb-4 md:mb-0">
             <div className="flex items-center">
-              <div className="bg-green-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
+              <div className="bg-blue-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
                 <CgAwards />
               </div>
               <h1 className="text left ml-2 text-4xl font-bold">5</h1>
@@ -48,7 +48,7 @@ export default function Section2() {
           </div>
           <div className="md:ml-3 lg:ml-0">
             <div className="flex items-center">
-              <div className="bg-green-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
+              <div className="bg-blue-600 w-12 h-12 flex justify-center items-center rounded-full text-white text-2xl">
                 <FaPeopleCarry />
               </div>
               <h1 className="text left ml-2 text-4xl font-bold">34</h1>
